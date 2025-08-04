@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.in-body {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.in-body .in {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.in-body h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.in input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.add-btn {
+    padding: 10px 16px;
+    background-color: #00d007;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #07f913;
+}
+
+.op {
+    /* background-color: #f9f9f9; */
+    padding: 10px;
+}
+
+ol {
+    list-style: decimal inside;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    background: #f9f9f9;
+    align-items: center;
+    margin-left: 7px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    width: 380px;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+    flex: 1;
+    color: #333;
+}
+
+.delete {
+    margin-left: 10px;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1;
+    background: none;
+}
