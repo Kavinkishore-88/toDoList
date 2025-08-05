@@ -5,16 +5,21 @@ body{
     min-height: 100vh;
     background-color: #f0f0f0;
     margin: 0;
+    background: url("./assets/no1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
     font-family: Arial, sans-serif;
 }
 
 .in-body {
-    background-color: #f9f9f9;
+    color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     width: 400px;
     margin-bottom: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: transparent;
+    border: 2px solid rgba(255, 255,255,.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
 .in-body .in {
@@ -27,15 +32,22 @@ body{
 .in-body h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #222;
+    color: #ffffff;
 }
 
 .in input[type="text"] {
     flex: 1;
     padding: 10px;
-    border: 1px solid #ccc;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255,255,.2);
     border-radius: 8px;
     font-size: 16px;
+    color: #ffffff;
+}
+.in input::placeholder{
+    color: #ffffff;
 }
 
 .add-btn {
@@ -54,7 +66,6 @@ body{
 }
 
 .op {
-    /* background-color: #f9f9f9; */
     padding: 10px;
 }
 
@@ -67,24 +78,26 @@ ol {
 li {
     display: flex;
     justify-content: space-between;
-    background: #f9f9f9;
+    background:transparent;
+    border:none;
+    outline: none;
+    border: 2px solid rgba(255, 255,255,.2);
     align-items: center;
     margin-left: 7px;
     margin-bottom: 10px;
     padding: 10px 15px;
     width: 380px;
     border-radius: 6px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);;
 }
 
 .text {
     flex: 1;
-    color: #333;
+    color: #ffffff;
 }
 
 .delete {
     margin-left: 10px;
-    color: white;
     border: none;
     padding: 6px 14px;
     cursor: pointer;
